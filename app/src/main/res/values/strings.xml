@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TextRatingBar</string>
+    <string-array name="texts">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="texts2">
+        <item>亚瑟</item>
+        <item>鲁班7号</item>
+        <item>孙尚香</item>
+        <item>貂蝉</item>
+    </string-array>
+</resources>

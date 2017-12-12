@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.asura.textratingbar.MainActivity">
+
+    <com.asura.library_textratingbar.TextRatingBar
+        android:id="@+id/trb_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#efefef"
+        android:padding="10dp"/>
+
+    <com.asura.library_textratingbar.TextRatingBar
+        android:id="@+id/trb_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="#efefef"
+        android:padding="20dp"
+        app:trb_baseLineColor="#777777"
+        app:trb_baseLineSelectColor="#01AFEB"
+        app:trb_baseLineWidth="3dp"
+        app:trb_dividerHeight="20dp"
+        app:trb_dividerWidth="6dp"
+        app:trb_textMargin="50dp"
+        app:trb_textSize="24sp"
+        app:trb_texts="@array/texts"
+        app:trb_thumbRadius="20dp"
+        app:trb_thumbStrokeWidth="5dp"/>
+
+    <com.asura.library_textratingbar.TextRatingBar
+        android:id="@+id/trb_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="#efefef"
+        android:padding="20dp"
+        app:trb_baseLineColor="#777777"
+        app:trb_baseLineSelectColor="#01AFEB"
+        app:trb_baseLineWidth="2dp"
+        app:trb_dividerHeight="12dp"
+        app:trb_dividerWidth="2dp"
+        app:trb_textMargin="10dp"
+        app:trb_textPosition="top"
+        app:trb_textSize="16sp"
+        app:trb_texts="@array/texts2"
+        app:trb_thumbColor="#01AFEB"
+        app:trb_thumbRadius="16dp"
+        app:trb_thumbStrokeWidth="2dp"/>
+</LinearLayout>

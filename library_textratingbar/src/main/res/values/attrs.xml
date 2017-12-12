@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TextRatingBar">
+        <attr name="trb_baseLineColor" format="reference|color"/>
+        <attr name="trb_baseLineSelectColor" format="reference|color"/>
+        <attr name="trb_baseLineWidth" format="reference|dimension"/>
+        <attr name="trb_dividerHeight" format="reference|dimension"/>
+        <attr name="trb_dividerWidth" format="reference|dimension"/>
+        <attr name="trb_thumbRadius" format="reference|dimension"/>
+        <attr name="trb_thumbColor" format="reference|color"/>
+        <attr name="trb_thumbStrokeWidth" format="reference|dimension"/>
+        <attr name="trb_textPosition">
+            <enum name="top" value="0"/>
+            <enum name="bottom" value="1"/>
+        </attr>
+        <attr name="trb_textSize" format="reference|dimension"/>
+        <attr name="trb_textMargin" format="reference|dimension"/>
+        <attr name="trb_texts" format="reference"/>
+    </declare-styleable>
+</resources>
